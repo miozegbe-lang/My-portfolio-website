@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: font-family: "Poppins", serif;
+    background: mediumaquamarine;
+}
+
+/* NAV */
+nav {
+display: flex;
+justify-content: center;
+}
+
+
+nav {
+    background: whitesmoke;
+    padding: 15px;
+    text-align: right;
+    font-size: 12px;
+    width: 100vw;         
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    margin: 0 110px;
+    text-decoration:mediumspringgreen;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: palegoldenrod;
+}
+/* HOME */
+
+.home {
+    text-align: center;
+    padding: 0px 20px 100px 20px;
+}
+
+.home h1 {
+    font-size: 100px;
+    color:darkgreen
+    margin-top: 100px;
+
+}
+
+.home h2 {
+    font-size: 100px;
+    color: darkolivegreen;
+}
+
+/* PROFILE */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 70px;
+}
+h1{
+    color:darkgreen
+}
+h2{
+text-align: center;
+color:darkgreen;
+}
+h3{text-align:center;
+color:darkgreen;
+}
+
+.center-image {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.profile-container img {
+width: 200px;
+height: 200px;
+border-radius: 100%;
+}
+
+.profile-info {
+    max-width: 200px;
+}
+
+.profile-info p {
+    margin-bottom: 40px;
+}
+
+.profile-info ul {
+    list-style-type: circle;
+}
+p{
+    color:darkgreen;
+}
+/* PROJECTS */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.projects img {
+    width: 300px;
+    margin: 15px;
+    border-radius: 100px;
+    transition: transform 1.0s;
+}
+
+ .project img {
+transition: 0.3s;
+}
+.project img:hover {
+transform: scale(1.1);
+}
+.projects p{
+    text-align: center;
+}
+
+/* CONTACT */
+h1 {
+    text-align: center;
+    color:darkgreen
+}
+h4 {
+    text-align: center;
+    color: darkgreen;
+}
+h2 {
+    text-align: center;
+    color: palegoldenrod;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 50px auto;
+}
+
+form input,
+form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    border: 2px solid olive;
+    background: #0eb8c4;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #1dc9cf;
+}
+body {
+background-color: mediumseagreen;
+font-family: "Poppins", serif;
+}
+
+.contact-box {
+background-color: darkolivegreen;
+width: 60%;
+margin: 50px auto;
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* HEADINGS */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 65px
+}
+h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+/* RESPONSE */
+@media (max-width: 600px) {
+
+    .profile-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .projects img {
+        width: 100%;
+    }
+
+    form {
+        width: 90%;
+    }
+    .home h1 {
+        font-size: 50px;
+    }
+}
