@@ -9,10 +9,15 @@ html,  body {
     padding: 0;
     width: 100%;
 }
-
 body {
     font-family: 'Poppins', serif;
     background: mediumaquamarine;
+}
+.title-box {
+background-color: darkolivegreen;
+color:palegoldenrod;
+ padding: 10px;
+    border: 2px solid olive;
 }
 
 /* NAV */
@@ -29,13 +34,16 @@ border-radius: 8px;
 margin: 5px;
 display: inline-block;
 font-weight: bold;
+transition: 0.3s;
 }
 .nav-btn:hover {
 background-color: mediumspringgreen;
-color: white;
+color: darkolivegreen;}
+.nav-btn:hover{ 
+transform: scale(1.1)
 }
 nav {
-    background: whitesmoke;
+    background: mediumseagreen;
     padding: 15px;
     text-align: right;
     font-size: 12px;
@@ -59,6 +67,7 @@ nav a:hover {
 }
 /* HOME */
 
+
 .home {
     text-align: center;
     padding: 0px 20px 100px 20px;
@@ -66,7 +75,7 @@ nav a:hover {
 
 .home h1 {
     font-size: 100px;
-    color: darkgreen;
+    color: palegoldenrod;
     margin-top: 100px;
 }
 
@@ -84,7 +93,7 @@ nav a:hover {
     padding: 70px;
 }
 h1{
-    color:darkgreen
+    color:palegoldenrod
 }
 h2{
 text-align: center;
@@ -98,12 +107,23 @@ color:darkgreen;
 display: block;
 margin-left: auto;
 margin-right: auto;
+max-width: 100%;
+height: auto;
 }
-
+.center-image {
+    width: 300px;
+    marin: 15px;
+    border-radius: 100px;
+    transition: transform 2.0s;
+max-width: 100%;
+height: auto;
+}
 .profile-container img {
 width: 200px;
 height: 200px;
 border-radius: 100%;
+max-width: 100%;
+height: auto;
 }
 
 .profile-info {
@@ -115,24 +135,32 @@ border-radius: 100%;
 }
 
 .profile-info ul {
-    list-style-type: circle;
+    list-style-type:circle;
 }
 p{
     color:darkgreen;
 }
 /* PROJECTS */
-.projects {
+.project h4{
+    text-align:left;
+    color:darkgreen
+}
+
+.project {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px;
+    padding: 40px;
 }
 
-.projects img {
+.project img {
     width: 300px;
-    margin: 15px;
+    marin: 15px;
     border-radius: 100px;
-    transition: transform 1.0s;
+    transition: transform 2.0s;
+max-width: 100%;
+height: auto;
+
 }
 
  .project img {
@@ -148,7 +176,7 @@ transform: scale(1.1);
 /* CONTACT */
 h1 {
     text-align: center;
-    color:darkgreen
+   color:palegoldenrod
 }
 h4 {
     text-align: center;
@@ -176,7 +204,7 @@ form textarea {
 form button {
     padding: 10px;
     border: 2px solid olive;
-    background: #0eb8c4;
+    background: mediumseagreen;
     color: white;
     cursor: pointer;
 }
