@@ -141,10 +141,6 @@ p{
     color:darkgreen;
 }
 /* PROJECTS */
-.project {
-display: flex;
-gap: 20px;
-}
 
 /* Tablet */
 @media (max-width: 768px) {
