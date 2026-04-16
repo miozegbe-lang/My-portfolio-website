@@ -11,7 +11,7 @@ html,  body {
 }
 
 body {
-    font-family: font-family: "Poppins", serif;
+    font-family: 'Poppins', serif;
     background: mediumaquamarine;
 }
 
@@ -66,9 +66,8 @@ nav a:hover {
 
 .home h1 {
     font-size: 100px;
-    color:darkgreen
+    color: darkgreen;
     margin-top: 100px;
-
 }
 
 .home h2 {
