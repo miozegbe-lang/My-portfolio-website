@@ -20,8 +20,20 @@ nav {
 display: flex;
 justify-content: center;
 }
-
-
+.nav-btn {
+background-color: darkolivegreen;
+color: palegoldenrod;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 8px;
+margin: 5px;
+display: inline-block;
+font-weight: bold;
+}
+.nav-btn:hover {
+background-color: mediumspringgreen;
+color: white;
+}
 nav {
     background: whitesmoke;
     padding: 15px;
